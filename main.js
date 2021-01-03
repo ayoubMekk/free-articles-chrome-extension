@@ -11,8 +11,7 @@ if (location.host === "sci-hub.tw"){
 
 function messageListener(message,sender, response){
     if (message){
-        let url = "http://sci-hub.tw/" + window.location.href;
+        let url = "https://sci-hub.se/" + window.location.href;
         window.open(url);
     }
 }
-
